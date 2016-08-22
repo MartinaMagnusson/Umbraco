@@ -1,0 +1,40 @@
+﻿header {
+    position: relative;
+}
+
+    header h1 {
+        position: absolute;
+        left: 20px;
+        bottom: 10px;
+    }
+
+    header img {
+        background-size: cover;
+        width: 100%;
+    }
+
+.content-block {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    padding: 10px 0 30px 0;
+}
+
+    .content-block img {
+        background-size: cover;
+        width: 100% !important;
+        height: auto !important;
+    }
+
+footer {
+    background-color: #e8e8e8;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .content-block {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    }
+}
